@@ -8,7 +8,7 @@ const Fotter = () => {
 
         <div>
           <img src={assets.logo} className='mb-5 w-32' alt="" />
-          <p className='w-full md:w-2/3 text-gray-600'>FOREVER is your go-to shopping app for top-quality products and unbeatable deals. With a user-friendly interface, seamless navigation, and a wide range of categories, we make shopping effortless and enjoyable. From trendy fashion to everyday essentials, FOREVER offers something for everyone, all backed by reliable service, secure payments, and fast delivery. Download the app today and experience shopping redefined!
+          <p className='w-full md:w-2/3 text-gray-600'>SaiByFashion is your go-to shopping app for top-quality products and unbeatable deals. With a user-friendly interface, seamless navigation, and a wide range of categories, we make shopping effortless and enjoyable. From trendy fashion to everyday essentials, SaibyFashion offers something for everyone, all backed by reliable service, secure payments, and fast delivery. Download the app today and experience shopping redefined!
           </p>
         </div>
 
@@ -25,8 +25,8 @@ const Fotter = () => {
         <div>
           <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
           <ul className='flex flex-col gap-1 text-gray-600'>
-            <li>+11-211-221-1221</li>
-            <li>contact@foreveryou.com</li>
+            <li>+91 8608998527</li>
+            <li>contact@SaibyFashion.com</li>
 
           </ul>
         </div>

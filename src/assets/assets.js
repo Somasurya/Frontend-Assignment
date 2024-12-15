@@ -53,6 +53,24 @@ import p_img49 from './p_img49.png'
 import p_img50 from './p_img50.png'
 import p_img51 from './p_img51.png'
 import p_img52 from './p_img52.png'
+import a1 from './a1.png';
+import a2 from './a2.png';
+import a3 from './a3.png';
+import b1 from './b1.png';
+import b2 from './b2.png';
+import c1 from './c1.png';
+import c2 from './c2.png';
+import c3 from './c3.png';
+import d1 from './d1.png';
+import d2 from './d2.png';
+import d3 from './d3.png';
+import e1 from './e1.png';
+import e2 from './e2.png';
+import f1 from './f1.png';
+import f2 from './f2.png';
+import f3 from './f3.png';
+
+
 
 
 import logo from './logo.png'
@@ -97,22 +115,83 @@ export const assets = {
 
 export const products = [
     {
-        _id: "aaaaa",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 100,
-        image: [p_img1],
+        _id: "a",
+        name: " Pure Cotton Saree with Zari Border",
+        description: "This handwoven silk saree exudes an air of sophistication with its luxurious texture and intricate weaving. Perfect for weddings and festive occasions, it blends tradition with timeless beauty.",
+        price: 1000,
+        image: [a1,a2,a3],
         category: "Women",
-        subCategory: "Topwear",
+        subCategory: "Saree",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: true
+    },
+    {
+        _id: "b",
+        name: "Wine Silk Jacquard Woven Saree",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        price: 2000,
+        image: [b1,b2],
+        category: "Women",
+        subCategory: "Saree",
         sizes: ["S", "M", "L"],
         date: 1716634345448,
         bestseller: false
     },
     {
+        _id: "c",
+        name: "Banarasi Brocade Saree",
+        description: "A classic cotton saree designed for comfort and style, featuring a stunning zari border. Lightweight and breathable, it’s ideal for casual outings or traditional ceremonies.",
+        price: 1500,
+        image: [c1,c2,c3],
+        category: "Women",
+        subCategory: "Saree",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "d",
+        name: "Women Round Neck Cotton Top",
+        description: "This elegant georgette saree comes with a delicately embroidered pallu, offering a perfect balance of modern chic and traditional grace. Suitable for parties and evening gatherings.",
+        price: 3000,
+        image: [d1,d2,d3],
+        category: "Women",
+        subCategory: "Saree",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "e",
+        name: "Handloom Linen Saree",
+        description: "Lightweight and breezy, this chiffon saree features stunning digital floral prints. Its versatile design makes it a great choice for brunches, daytime weddings, or casual wear.",
+        price: 2400,
+        image: [e1,e2],
+        category: "Women",
+        subCategory: "Saree",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: true
+    },
+    {
+        _id: "f",
+        name: "Kalamkari Cotton Saree",
+        description: "Celebrate your special occasions with this Bandhani saree, crafted in traditional tie-dye patterns. Its vibrant hues and festive appeal make it a perfect companion for Mehendi ceremonies and cultural festivities.",
+        price: 900,
+        image: [f1,f2,f3],
+        category: "Women",
+        subCategory: "Saree",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    
+    {
         _id: "aaaab",
         name: "Men Round Neck Pure Cotton T-shirt",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 200,
+        price: 500,
         image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
         category: "Men",
         subCategory: "Topwear",
@@ -151,7 +230,7 @@ export const products = [
         price: 130,
         image: [p_img5],
         category: "Women",
-        subCategory: "Topwear",
+        subCategory: "Saree",
         sizes: ["M", "L", "XL"],
         date: 1716622345448,
         bestseller: true
@@ -242,12 +321,12 @@ export const products = [
     },
     {
         _id: "aaaam",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 130,
+        name: "Handloom Linen Saree",
+        description: "This handloom linen saree combines earthy charm with elegant simplicity. Its soft fabric and subtle patterns make it ideal for both office wear and casual gatherings.",
+        price: 1300,
         image: [p_img13],
         category: "Women",
-        subCategory: "Topwear",
+        subCategory: "Saree",
         sizes: ["S", "M", "L", "XL"],
         date: 1716625545448,
         bestseller: false
@@ -326,15 +405,15 @@ export const products = [
     },
     {
         _id: "aaaat",
-        name: "Women Palazzo Pants with Waist Belt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 190,
+        name: "Kanjivaram Silk Saree",
+        description: "A masterpiece of Kanjivaram silk, this saree boasts opulent designs in gold threads. Known for its durability and sheen, it’s a must-have for bridal trousseaus and grand events.",
+        price: 4900,
         image: [p_img20],
         category: "Women",
-        subCategory: "Bottomwear",
+        subCategory: "Saree",
         sizes: ["S", "M", "L", "XL"],
         date: 1716633245448,
-        bestseller: false
+        bestseller: true
     },
     {
         _id: "aaaau",
@@ -535,7 +614,7 @@ export const products = [
         price: 250,
         image: [p_img37],
         category: "Women",
-        subCategory: "Topwear",
+        subCategory: "Saree",
         sizes: ["S", "M", "L", "XL"],
         date: 1716651945448,
         bestseller: false
